@@ -441,8 +441,8 @@ footer{background:var(--sky);border-top:1px solid var(--line);margin-top:96px}
 <div class="out" id="shareOut" role="status"></div></div>
 </div></section>
 <script>
-/* Lenken som deles. Sett til sidens faste adresse når den er klar, ellers brukes adressen siden er åpnet på. */
-(function(){var SHARE_URL="";
+/* Lenken som deles med "Send til en venn". Alltid sidens faste adresse. */
+(function(){var SHARE_URL="https://www.påskeleirlyngmo.no/";
 var b=document.getElementById("shareBtn"),o=document.getElementById("shareOut");if(!b)return;
 b.addEventListener("click",function(){var url=SHARE_URL||location.href.split("#")[0];var text="Skal du være med på påskeleir på Lyngmo? 25.–28. mars 2027.";
 function show(){o.innerHTML='Kopier teksten og send den til en venn:<textarea rows="2" readonly></textarea>';var t=o.querySelector("textarea");t.value=text+" "+url;t.focus();t.select()}
