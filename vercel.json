@@ -1,3 +1,6 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/praktisk", "destination": "/info", "permanent": true }
+  ]
 }
