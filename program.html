@@ -247,12 +247,11 @@ footer{background:var(--sky);border-top:1px solid var(--line);margin-top:96px}
 <section class="sec" id="dagene"><div class="wrap">
 <div class="r"><div class="eyebrow">Torsdag til søndag</div><h2>Dagene på <em>Lyngmo</em></h2></div>
 <div class="days">
-<div class="dc r"><h3>Torsdag</h3><div class="d">25. mars</div><ul><li><span class="tid">16:00</span><span>Innsjekk og romfordeling</span></li><li><span class="tid">18:00</span><span>Middag</span></li><li><span class="tid">19:30</span><span>Kveldsmøte med tale og lovsang</span></li><li><span class="tid">21:00</span><span>Bli kjent-kveld</span></li></ul></div>
-<div class="dc r"><h3>Fredag</h3><div class="d">26. mars</div><ul><li><span class="tid">08:00</span><span>Frokost og nistesmøring</span></li><li><span class="tid">09:00</span><span>Morgensamling i peisestua med ord for dagen og sang</span></li><li><span class="tid">09:15</span><span>Aktiviteter</span></li><li><span class="tid">16:00</span><span>Badstue for de som vil</span></li><li><span class="tid">18:00</span><span>Middag</span></li><li><span class="tid">19:30</span><span>Kveldsmøte med tale og lovsang</span></li><li><span class="tid">21:30</span><span>Kveldskos med kaffe og kaker</span></li></ul></div>
-<div class="dc r"><h3>Lørdag</h3><div class="d">27. mars</div><ul><li><span class="tid">08:00</span><span>Frokost og nistesmøring</span></li><li><span class="tid">09:00</span><span>Morgensamling i peisestua med ord for dagen og sang</span></li><li><span class="tid">09:15</span><span>Aktiviteter</span></li><li><span class="tid">16:00</span><span>Badstue for de som vil</span></li><li><span class="tid">18:00</span><span>Middag</span></li><li><span class="tid">19:30</span><span>Kveldsmøte med tale og lovsang</span></li><li><span class="tid">21:30</span><span>Kveldskos med kaffe og kaker</span></li></ul></div>
-<div class="dc r"><h3>Søndag</h3><div class="d">28. mars</div><ul><li><span class="tid">09:00</span><span>Frokost</span></li><li><span class="tid">10:00</span><span>Avslutningsmøte</span></li><li><span class="tid">12:00</span><span>Rydding og utvask</span></li><li><span class="tid">13:00</span><span>Middag med dessert og avreise</span></li></ul></div>
+<div class="dc r"><h3>Torsdag</h3><div class="d">25. mars</div><p class="snart">Kommer snart</p></div>
+<div class="dc r"><h3>Fredag</h3><div class="d">26. mars</div><p class="snart">Kommer snart</p></div>
+<div class="dc r"><h3>Lørdag</h3><div class="d">27. mars</div><p class="snart">Kommer snart</p></div>
+<div class="dc r"><h3>Søndag</h3><div class="d">28. mars</div><p class="snart">Kommer snart</p></div>
 </div>
-<p class="note">Tidene er hentet fra programmet i 2026 og kan bli justert. Programmet oppdateres etter hvert som flere ting blir spikret.</p>
 </div></section>
 <section class="sec" style="padding-top:0;scroll-margin-top:100px" id="pakkeliste"><div class="wrap">
 <a class="pkl r" href="/pakkeliste"><div><div class="eyebrow">Før du pakker</div><h2>Pakke<em>liste</em></h2><p>Laken og putetrekk, varme klær, badetøy og resten. Hele listen ligger på en egen side.</p></div><span class="btn">Se pakkelisten <svg class="ic" aria-hidden="true"><use href="#i-arr"/></svg></span></a>
@@ -527,4 +526,5 @@ b.addEventListener("click",function(){set(!m.classList.contains("open"))});
 m.addEventListener("click",function(e){if(e.target.closest("a"))set(false)});
 addEventListener("keydown",function(e){if(e.key==="Escape")set(false)});})();
 </script>
+<style id="program-snart">.dc .snart{margin:0;max-width:none;font-family:"Nunito",var(--sans);font-size:1rem;font-weight:800;color:#C47F1C}</style>
 </body></html>
